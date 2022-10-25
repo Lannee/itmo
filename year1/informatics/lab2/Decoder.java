@@ -103,5 +103,4 @@ public class Decoder {
 
         return result;
     }
-
 }
