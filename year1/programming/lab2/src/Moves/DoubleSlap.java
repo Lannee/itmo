@@ -18,7 +18,7 @@ public class DoubleSlap extends PhysicalMove {
             if(Math.random() > chances[i]) {
                 break;
             }
-            p.setMod(Stat.HP, (int)Math.round(powers[i]));
+            p.setMod(Stat.HP, Math.round(powers[i]));
         }
     }
 
